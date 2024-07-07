@@ -1,0 +1,44 @@
+body{
+    font-family: 'Bebas Neue', sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'popins', sans-serif;
+    box-sizing: border-box;
+}
+.background-banner{
+    background-image: linear-gradient(45deg
+    rgb(0,0,0,0.7)
+    rgb(51 43 43 / 75%)),
+    url(/images/background.jpg);
+    max-height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+ button{
+    margin-left: 300px;
+    cursor: pointer;
+ }
+
+ .Netflix-content{
+    width: 400px;
+    height: 300px;
+    float: right;
+ }
+.home-content{
+    height: 550px;
+}
+.home-content h1{
+    color: white;
+    font-weight: bold;
+    padding-left: 54px;
+    font-size: 3.125rem;
+}
+.home-content p{
+    font-size: 18px;
+}
+.background{
+    background-image: url(/images/background.jpg);
+}
